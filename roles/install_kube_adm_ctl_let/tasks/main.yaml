@@ -3,7 +3,7 @@
   ping:
     data: alive
 
-- name: craete the keyring directory for google gpg key
+- name: create the keyring directory for google gpg key
   file:
     path: /usr/share/keyrings/
     state: directory
